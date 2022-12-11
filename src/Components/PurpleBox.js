@@ -1,30 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import AstroMap from "../assets/img/astromap.webp";
+import Data from "../Datas/newsData.json";
 
-function PurpleBox() {
+const PurpleBox = () => {
+  const [data, setData] = useState(Data);
   return (
-    <div className="first-purple-box text-left">
-      <div className="blue-box text-left mb-4">
-        <h5 className="box-title">ASTROLOJİ NEDİR ?</h5>
-        <p className="box-text">
-          Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Fakat
-          astrolojinin kökeni astronomiye göre çok eskilere dayanır, yaklaşık 6
-          bin yıl öncesine. Babil, Mısır, Yunan, Roma, Çin, Maya ve Arap
-          uygarlıklarının astroloji ile ilgilendiklerine dair pek çok kanıt
-          vardır.
-        </p>
-      </div>
-      <div className="row">
-        <div className="col box-image text-center">
-          <Image src={AstroMap} height="250" />
-        </div>
-        <div className="col box-image text-center">
-          <Image src={AstroMap} height="250" />
-        </div>
-      </div>
+    <div>
+      {data &&
+        data.map((item) => (
+          <div className="row col-12 mb-5 pb-5">
+            <div className="col-lg-6 col-sm-12" key={item.id}>
+              <div className="first-purple-box text-left">
+                <div className="blue-box text-left mb-4">
+                  <h5 className="box-title">{item.title}</h5>
+                  <p className="box-text">{item.details}</p>
+                </div>
+                <div className="row">
+                  <div className="col box-image text-center">
+                    <Image src={AstroMap} height="250" />
+                  </div>
+                  <div className="col box-image text-center">
+                    <Image src={AstroMap} height="250" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
     </div>
   );
-}
+};
 
 export default PurpleBox;
