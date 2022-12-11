@@ -66,3 +66,22 @@ body, html {
   padding: 20px;
   border-radius: 20px;
 }
+.blog-bg{
+  background-color: #FFCD95;
+}
+.blog-header{
+  color: #6922FF;
+  font-size: 28px;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.blog-title{
+  color: #FF623E;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+.blog-text{
+  color: rgb(0, 84, 0);
+}
