@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  background-color: #FFCD95;
 }
 .bg {
   background-image: url("./assets/img/Game.svg") ;
@@ -16,7 +17,7 @@ body, html {
 .header-layout{
   background-color: #FF623E;
   color: #ffffff;
-  padding: 20px;
+  padding-left: 20px;
   font-weight: 600;
   font-size: 20px;                                               
 }
@@ -42,4 +43,13 @@ body, html {
 }
 .box-image{
   padding: 5px;
+}
+.box-text{
+  color: #fff !important;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box-title{
+  color: #fff !important;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
 }
