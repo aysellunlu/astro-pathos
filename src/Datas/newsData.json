@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "title":"Astroloji nedir?",
+        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+        "image":"require(.../assets/img/astromap.webp)"
+    },
+    {
+        "id":2,
+        "title":"İkizler Dolunayı?",
+        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+        "image":"require(.../assets/img/astromap.webp)"
+    },
+    {
+        "id":3,
+        "title":"Merkür retrosu neleri götürdü?",
+        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+        "image":"require(.../assets/img/astromap.webp)"
+    },
+    {
+        "id":4,
+        "title":"Burçların en iyisi:OĞLAK",
+        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+        "image":"require(.../assets/img/astromap.webp)"
+    },
+    {
+        "id":5,
+        "title":"Stelyum Akrep muhteşemliği...",
+        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+        "image":"require(.../assets/img/astromap.webp)"
+    }
+
+]
