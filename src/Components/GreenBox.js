@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import AstroMap from "../assets/img/astromap.webp";
 import Data from "../Datas/blogData.json";
 const GreenBox = () => {
-  const [data, setData] = useState(Data);
+  const [data] = useState(Data);
   return (
     <div>
       {data &&
