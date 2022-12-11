@@ -1,33 +1,32 @@
 [
-    {
-        "id":1,
-        "title":"Astroloji Yorumları?",
-        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
-        "image":"require(.../assets/img/astromap.webp)"
-    },
-    {
-        "id":2,
-        "title":"İkizler Dolunayı nasıl etkiledi?",
-        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
-        "image":"require(.../assets/img/astromap.webp)"
-    },
-    {
-        "id":3,
-        "title":"Satürn takla atınca neler hissederiz?",
-        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
-        "image":"require(.../assets/img/astromap.webp)"
-    },
-    {
-        "id":4,
-        "title":"Oğlak Burcu kalite midir?",
-        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
-        "image":"require(.../assets/img/astromap.webp)"
-    },
-    {
-        "id":5,
-        "title":"Yengeçler neden her şeye ağlar?",
-        "details":"Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
-        "image":"require(.../assets/img/astromap.webp)"
-    }
-
+  {
+    "id": 0,
+    "title": "Astroloji Yorumları?",
+    "details": "Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+    "image": "require(.../assets/img/astromap.webp)"
+  },
+  {
+    "id": 1,
+    "title": "İkizler Dolunayı nasıl etkiledi?",
+    "details": "Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+    "image": "require(.../assets/img/astromap.webp)"
+  },
+  {
+    "id": 2,
+    "title": "Satürn takla atınca neler hissederiz?",
+    "details": "Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+    "image": "require(.../assets/img/astromap.webp)"
+  },
+  {
+    "id": 3,
+    "title": "Oğlak Burcu sadakati bulunmaz hint kumaşı",
+    "details": "Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+    "image": "require(.../assets/img/astromap.webp)"
+  },
+  {
+    "id": 4,
+    "title": "Yengeçler neden her şeye ağlar?",
+    "details": "Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır. Astroloji uzun süre astronomiyle aynı bilim dalı sayılmıştır.",
+    "image": "require(.../assets/img/astromap.webp)"
+  }
 ]
