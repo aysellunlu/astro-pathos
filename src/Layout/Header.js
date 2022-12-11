@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Image } from "react-bootstrap";
 import AstroPathos from "../assets/img/AstroPathos.svg";
 
-function Header() {
+const Header = () => {
   return (
     <div className="container-fluid">
       <div className="header-layout row">
@@ -25,5 +25,5 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 export default Header;

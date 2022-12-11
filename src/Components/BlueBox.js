@@ -1,28 +1,33 @@
-import React from "react";
-import { Image } from "react-bootstrap";
-import AstroMap from "../assets/img/astromap.webp";
+import React, { useState } from "react";
+import Data from "../Datas/contactData.json";
 
-function BlueBox() {
+const BlueBox = () => {
+  const [data, setData] = useState(Data);
   return (
-    <div className="blue-box col-6 p-5">
-      <div className="first-purple-box">
-        <div className="row">
-          <div className="box-title mb-5">
-            <h3>
-              <b>İLETİŞİM</b>
-            </h3>
+    <div>
+      {data &&
+        data.map((item) => (
+          <div className="blue-box col-6 p-5">
+            <div className="first-purple-box">
+              <div className="row">
+                <div className="box-title mb-5">
+                  <h3>
+                    <b>İLETİŞİM</b>
+                  </h3>
+                </div>
+                <div className="col">
+                  <div className="box-text mb-3">Telefon: {item.phone}</div>
+                  <div className="box-text mb-3">Mail: {item.mail}</div>
+                  <div className="box-text mb-3">
+                    Instagram: {item.instagram}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="col">
-            <div className="box-text mb-3">Telefon: +90(555) 55 55</div>
-            <div className="box-text mb-3">Instagram: astro_pathos</div>
-          </div>
-          <div className="col">
-            <Image src={AstroMap} height="250" />
-          </div>
-        </div>
-      </div>
+        ))}
     </div>
   );
-}
+};
 
 export default BlueBox;

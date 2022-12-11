@@ -5,29 +5,22 @@ import PurpleBox from "../Components/PurpleBox";
 import GreenBox from "../Components/GreenBox";
 import BlueBox from "../Components/BlueBox";
 
-function Welcome() {
+const Welcome = () => {
   return (
     <div className="body bg container-fluid">
       <div className="main-page-logo-space mb-5">
         <Image src={MainpageImage} width="75%" />
       </div>
-      <div className="row mb-5 pb-5">
-        <div className="col">
-          <PurpleBox />
-        </div>
-        <div className="col">
-          <PurpleBox />
-        </div>
+      <div className="">
+        <PurpleBox />
       </div>
-      <div className=" mb-5 pb-5 row">
-        <GreenBox />
-        <GreenBox />
+      <div className=" mb-5 pb-5">
         <GreenBox />
       </div>
-      <div className="information-box row justify-content-center">
+      <div className="information-box">
         <BlueBox />
       </div>
     </div>
   );
-}
+};
 export default Welcome;
