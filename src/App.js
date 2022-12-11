@@ -5,7 +5,7 @@ import Welcome from './Pages/Welcome';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container-xl">
       <Header/>
       <Welcome/>
     </div>
