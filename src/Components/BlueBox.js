@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Data from "../Datas/contactData.json";
 
 const BlueBox = () => {
-  const [data, setData] = useState(Data);
+  const [data] = useState(Data);
   return (
-    <div>
+    <div className="row justify-content-center">
       {data &&
         data.map((item) => (
-          <div className="blue-box col-6 p-5">
+          <div className="blue-box col-md-6 p-5">
             <div className="first-purple-box">
               <div className="row">
                 <div className="box-title mb-5">
@@ -15,7 +15,7 @@ const BlueBox = () => {
                     <b>İLETİŞİM</b>
                   </h3>
                 </div>
-                <div className="col">
+                <div className="col-sm-8 col-lg-12">
                   <div className="box-text mb-3">Telefon: {item.phone}</div>
                   <div className="box-text mb-3">Mail: {item.mail}</div>
                   <div className="box-text mb-3">

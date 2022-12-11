@@ -4,12 +4,12 @@ import AstroMap from "../assets/img/astromap.webp";
 import Data from "../Datas/newsData.json";
 
 const PurpleBox = () => {
-  const [data, setData] = useState(Data);
+  const [data] = useState(Data);
   return (
     <div>
       {data &&
         data.map((item) => (
-          <div className="row col-12 mb-5 pb-5">
+          <div className="row col-md-12 mb-5 pb-5">
             <div className="col-lg-6 col-sm-12" key={item.id}>
               <div className="first-purple-box text-left">
                 <div className="blue-box text-left mb-4">
