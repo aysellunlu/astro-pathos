@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import Welcome from "./Welcome";
 
 test("Header renders correctly", () => {
-  const { debug, container } = render(<App />);
+  const { debug, container } = render(<Welcome />);
 
   debug();
 });
