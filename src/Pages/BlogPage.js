@@ -10,7 +10,7 @@ const BlogPage = () => {
     console.log(windowSize);
   }, [windowSize]);
   return (
-    <div>
+    <>
     <div className="blog-bg col-sm-12">
       <div className="blog-header mt-5">BLOG</div>
       <div className="row justify-content-center">
@@ -26,7 +26,7 @@ const BlogPage = () => {
           ))}
       </div>
     </div>
-    </div>
+    </>
   );
 };
 export default BlogPage;
